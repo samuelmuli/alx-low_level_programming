@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - main function
- * Retun: returns zero
+ * Return: returns zero
  */
 int main(void)
 {
