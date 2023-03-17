@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - main function
- *
- * return: return zero
+ * Return: returns zero
  */
-
 int main(void)
 {
 	char x;
