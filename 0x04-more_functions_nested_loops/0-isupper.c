@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *_isupper - function to print uppercase
+ *_isupper - function prints uppercase alphabets
  *
- *@c: parameter
+ *@c: parameter to be passed
  *
- *Return: 1 if it is uppercase
+ *Return: 0 (success)
  */
 
 int _isupper(int c)
