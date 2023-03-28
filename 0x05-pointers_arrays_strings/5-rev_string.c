@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *rev_string
+ *rev_string - function start
  *
  *@s: parameter
  *
