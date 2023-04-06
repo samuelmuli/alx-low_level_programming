@@ -6,7 +6,7 @@
  *
  *Return: 0 success
  */
-char *leet(char *n);
+char *leet(char *n)
 {
 	int x, y;
 	char s1[] = "aAeEoOtTlL";
