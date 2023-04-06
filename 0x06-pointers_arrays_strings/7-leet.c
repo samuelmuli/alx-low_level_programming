@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *leet - function that encodes 1337
+ *leet - function that encodes a string
  *
  *@n: parameter
  *
@@ -11,7 +11,7 @@ char *leet(char *n)
 	int x, y;
 
 	char *i = "aAeEoOtTlL";
-	char *j = "4433007711";
+	char *j = "4433007i711";
 
 	for (x = 0; n[x] != '\0'; x++)
 	{
@@ -23,5 +23,5 @@ char *leet(char *n)
 			}
 		}
 	}
-	return (n)
+	return (n);
 }
