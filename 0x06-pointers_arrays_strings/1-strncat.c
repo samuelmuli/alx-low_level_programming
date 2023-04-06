@@ -6,6 +6,8 @@
  *
  *@src: parameter
  *
+ *@n: parameter
+ *
  *Return: 0 success
  */
 char *_strcat(char *dest, char *src)
@@ -19,7 +21,7 @@ char *_strcat(char *dest, char *src)
 		x++;
 	}
 	y = 0;
-	while (src[y] != '\0')
+	while (y < n && src[y] != '\0')
 	{
 		dest[x] = src[y];
 		x++;
