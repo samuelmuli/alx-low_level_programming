@@ -20,7 +20,7 @@ int is_prime_number(int n)
  *
  *@y: parameter
  *
- * Return: 1 is prime else 0
+ *Return: 1 is prime else 0
  */
 int _get_prime(int x, int y)
 {
