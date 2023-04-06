@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strcat - function to concat two strings
+ *_strncat - function to concat two strings
  *
  *@dest: parameter
  *
@@ -10,7 +10,7 @@
  *
  *Return: 0 success
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int x;
 	int y;
