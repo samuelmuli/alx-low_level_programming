@@ -43,6 +43,6 @@ int _pal_check(char *s, int x, int y)
 	if (*(s + x) != *(s + y - 1))
 		return (0);
 	if (x >= y)
-		return (1)
+		return (1);
 	return (_pal_check(s, x + 1, y - 1));
 }
