@@ -24,7 +24,7 @@ int is_prime_number(int n)
  */
 int _get_prime(int x, int y)
 {
-	if (x == 1)
+	if (y == 1)
 		return (1);
 	if (x % y == 0 && y > 0)
 		return (0);
