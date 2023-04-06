@@ -1,4 +1,5 @@
 #include "main.h"
+int _get_sqrt(int x, int y);
 /**
  *_sqrt_recursion - returns natural sqaure root of n
  *
@@ -10,10 +11,10 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (sqrt_recurs(n, 0));
+	return (_get_sqrt(n, 0));
 }
 /**
- *sqrt_recurs - function recursion
+ *_get_sqrt - function recursion
  *
  *@x: parameter
  *
@@ -21,11 +22,11 @@ int _sqrt_recursion(int n)
  *
  * Return: returns the square root
  */
-int sqrt_recurs(int x, int y)
+int _get_sqrt(int x, int y)
 {
 	if (y * y > x)
 		return (-1);
 	if (y * y == x)
 		return (y);
-	return (sqrt_recurs(x, y + 1));
+	return (_get_sqrt(x, y + 1));
 }
